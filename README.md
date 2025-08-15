@@ -33,4 +33,4 @@ Gamma vs S :
 
 <img width="585" height="453" alt="Gamma" src="https://github.com/user-attachments/assets/4877d107-2410-4671-a3b7-3500a8a6ff92" />
 
-
+The main file is visualization.py
