@@ -1,1 +1,10 @@
-Python implementation of Black-Scholes option pricing with Greeks calculation and payoff visualization. Implémentation Python de la tarification des options Black-Scholes avec calcul des Greeks et visualisation du rendement.
+Python implementation of Black-Scholes option pricing with Greeks calculation and payoff visualization.
+This project implements the Black-Scholes model for pricing European options (call and put) and calculates their principal Greeks:
+
+Delta: sensitivity to the underlying price
+
+Gamma: sensitivity of Delta
+
+Vega: sensitivity to volatility
+
+The project also includes a graphical visualization of the Greeks.
