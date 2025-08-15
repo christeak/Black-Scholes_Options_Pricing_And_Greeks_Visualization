@@ -3,14 +3,14 @@ from scipy.stats import norm
 
 def black_scholes_price(option_type: str, S: float, K: float, r: float, sigma: float, T: float) -> float:
     """
-    Calcule le prix d'une option européenne call ou put via le modèle de Black-Scholes.
+    Compute the price of a European option call or put via the Black-Scholes model.
     
-    option_type: 'call' ou 'put'
-    S: prix spot de l'actif sous-jacent
-    K: prix d'exercice
-    r: taux sans risque (en décimal, ex: 0.01)
-    sigma: volatilité implicite (en décimal)
-    T: maturité en années
+    option_type: 'call' or 'put'
+    S: spot price of the underlying asset
+    K: strike
+    r: interest rate 
+    sigma: volatility
+    T: maturity in years
     """
     d1 = (np.log(S / K) + (r + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
     d2 = d1 - sigma * np.sqrt(T)
